@@ -1,2 +1,1 @@
-def tastery():
-  return "Bishwajit"
+
