@@ -1,4 +1,1 @@
-
-def testfunction():
-  return xxxyyyzzz
-  
+x=5
