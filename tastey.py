@@ -1,2 +1,1 @@
-def tstfunction():
-  return 5
+x=10
