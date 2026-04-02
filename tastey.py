@@ -1,1 +1,2 @@
-x=5
+def tstfunction():
+  return 5
