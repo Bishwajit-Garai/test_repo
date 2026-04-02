@@ -1,1 +1,3 @@
 
+def testfunction():
+  return xxxyyyzzz
