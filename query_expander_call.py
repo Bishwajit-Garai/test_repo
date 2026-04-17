@@ -24,7 +24,7 @@ class QueryExpander:
         self.client = client 
         self.model = model 
     
-    @retry_and_log_llm_usage(max_retries=3, retry_delay=1.0, backoff_factor=2.0)
+    @retry_and_log_llm_usage_BISHWAJIT(max_retries=3, retry_delay=1.0, backoff_factor=2.0)
     def _call_llm_for_expansion(self, system_prompt: str, user_prompt: str) -> tuple:
         """
         Call LLM for query expansion with retry and token logging.
